@@ -5,9 +5,9 @@
  * Version: 1.0.0
  * Author: Claude
  * Text Domain: wp-ai-chatbot
- * GitHub Plugin URI: YOUR_GITHUB_USERNAME/wp-ai-chatbot
+ * GitHub Plugin URI: stevenayl/wp-ai-chatbot
  * GitHub Branch: main
- * Update URI: YOUR_GITHUB_USERNAME/wp-ai-chatbot
+ * Update URI: stevenayl/wp-ai-chatbot
  */
 
 // If this file is called directly, abort.
@@ -25,7 +25,7 @@ require_once WP_AI_CHATBOT_PATH . 'includes/class-wp-ai-chatbot.php';
 require_once WP_AI_CHATBOT_PATH . 'includes/updater/class-wp-ai-chatbot-updater.php';
 
 // Initialize GitHub updater
-$github_username = 'YOUR_GITHUB_USERNAME'; // Replace with your GitHub username
+$github_username = 'stevenayl'; // Replace with your GitHub username
 $github_repo = 'wp-ai-chatbot'; // Replace with your repository name
 $updater = new WP_AI_Chatbot_Updater(__FILE__, $github_username, $github_repo);
 

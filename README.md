@@ -15,7 +15,7 @@ A simple AI-powered chatbot plugin for WordPress, powered by OpenAI's API.
 ## Installation
 
 ### Manual Installation
-1. Download the latest release zip file from the [Releases page](https://github.com/YOUR_GITHUB_USERNAME/wp-ai-chatbot/releases)
+1. Download the latest release zip file from the [Releases page](https://github.com/stevenayl/wp-ai-chatbot/releases)
 2. In your WordPress admin, go to Plugins > Add New > Upload Plugin
 3. Choose the zip file and click "Install Now"
 4. Activate the plugin
@@ -24,7 +24,7 @@ A simple AI-powered chatbot plugin for WordPress, powered by OpenAI's API.
 If you have the [GitHub Updater](https://github.com/afragen/github-updater) plugin installed:
 
 1. Go to Settings > GitHub Updater > Install Plugin
-2. Enter `YOUR_GITHUB_USERNAME/wp-ai-chatbot` in the GitHub Repository field
+2. Enter `stevenayl/wp-ai-chatbot` in the GitHub Repository field
 3. Click "Install Plugin"
 4. Activate the plugin
 

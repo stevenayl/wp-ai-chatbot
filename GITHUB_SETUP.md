@@ -14,27 +14,26 @@ Follow these steps to set up your GitHub repository for automatic updates.
 
 ## 2. Update plugin files
 
-1. Edit the `wp-ai-chatbot.php` file and replace `YOUR_GITHUB_USERNAME` with your actual GitHub username in these lines:
-   ```php
-   // GitHub Plugin URI: YOUR_GITHUB_USERNAME/wp-ai-chatbot
-   // GitHub Branch: main
-   // Update URI: YOUR_GITHUB_USERNAME/wp-ai-chatbot
-   ```
+1. Files are already set up with your GitHub username (stevenayl)
 
-2. Also replace `YOUR_GITHUB_USERNAME` in this section:
+2. Make sure the repository settings match this configuration:
+   ```php
+   // GitHub Plugin URI: stevenayl/wp-ai-chatbot
+   // GitHub Branch: main
+   // Update URI: stevenayl/wp-ai-chatbot
+   ```
+   
    ```php
    // Initialize GitHub updater
-   $github_username = 'YOUR_GITHUB_USERNAME'; // Replace with your GitHub username
-   $github_repo = 'wp-ai-chatbot'; // Replace with your repository name
+   $github_username = 'stevenayl'; // Your GitHub username
+   $github_repo = 'wp-ai-chatbot'; // Your repository name
    ```
-
-3. Edit the `README.md` file and replace all instances of `YOUR_GITHUB_USERNAME` with your actual GitHub username
 
 ## 3. Push the code to GitHub
 
 1. Open your terminal and navigate to the plugin directory
 2. Initialize Git (if not already done): `git init`
-3. Add the remote repository: `git remote add origin https://github.com/YOUR_GITHUB_USERNAME/wp-ai-chatbot.git`
+3. Add the remote repository: `git remote add origin https://github.com/stevenayl/wp-ai-chatbot.git`
 4. Add all files: `git add .`
 5. Create your first commit: `git commit -m "Initial commit"`
 6. Push to GitHub: `git push -u origin main`
